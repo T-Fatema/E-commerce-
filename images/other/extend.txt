@@ -1,0 +1,29 @@
+For menu png---
+
+<img src="images/menu.png" class="menu-icon" onclick="menutoggle()" >
+
+
+
+
+for js toggle---
+
+<!--------js for toggle menu-------->
+
+
+ 	<script>
+
+ 		var MenuItems = document.getElementById("MenuItems");
+
+ 		MenuItems.style.mexHeight = "0px";
+
+ 		menutoggle.onclick =function(){
+ 			if(MenuItems.style.mexHeight == " 0px")
+ 			{
+ 				MenuItems.style.mexHeight = "200px";
+ 			}
+ 			else
+ 			{
+ 				MenuItems.style.mexHeight = "0px";
+ 			}
+ 		}
+ 	</script>
